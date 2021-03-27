@@ -1,0 +1,67 @@
+
+body{
+    background : linear-gradient(-45deg,rgb(0, 204, 255),rgb(47, 253, 6))
+    
+}
+
+.container{
+    text-align: center;
+    margin-top:23px
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    background: linear-gradient(-105deg, rgb(204, 0, 255), rgb(25, 255, 0));
+    border-radius: 20px;
+    border: 5px solid #0400db;
+    font-size:34px;
+    height: 80px;
+    width: 400px;
+}
+
+
+
+button {
+    /* For your border-radius: */
+    border-radius: 35px;
+    /* This will offer the illusion that it's adopting the
+    background beneath it as its own but lightening it --
+    almost like IOS. */
+    background: #fff;
+    opacity: .4;
+    font-size: 45px;
+    width: 93px;
+    height: 90px;
+    margin: 3px;
+    border-radius: 10px;
+    border
+}
+
+/* Then maybe something like */
+button:active {
+    background: #000;
+    opacity: .4;
+}
+
+
+
+.calculator{ 
+    
+    border: 4px solid #0400db;
+    background: linear-gradient(-45deg, rgb(204, 0, 255), rgb(25, 255, 0));
+    padding: 25px;
+    border-radius: 40px;
+    
+    display: inline-block;
+    
+}
+
+h1{
+    
+    text-shadow: 5px 5px 5px rgb(5, 231, 247), 5px 5px 5px red;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
